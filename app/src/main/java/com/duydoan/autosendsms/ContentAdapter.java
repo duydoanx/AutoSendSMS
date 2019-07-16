@@ -21,9 +21,9 @@ public class ContentAdapter extends RecyclerView.Adapter<ContentAdapter.ViewHold
 
     private List<ContentData> dataList;
 
-//    public ContentAdapter(List<ContentData> dataList) {
-//        this.dataList = dataList;
-//    }
+    public ContentAdapter(List<ContentData> dataList) {
+        this.dataList = dataList;
+    }
 
 
     @NonNull

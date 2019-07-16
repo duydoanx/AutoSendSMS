@@ -83,20 +83,4 @@ public class DataRepository {
             return null;
         }
     }
-    private static class FindItemAsyncTask extends AsyncTask<String, Void, List<ContentData>>{
-        private ContentDataDao dataDao;
-        private FindItemAsyncTask(ContentDataDao contentDataDao){
-            this.dataDao = contentDataDao;
-        }
-
-        @Override
-        protected List<ContentData> doInBackground(String... strings) {
-            return dataDao.findItem(strings[0]);
-        }
-
-        @Override
-        protected void onPostExecute(List<ContentData> contentData) {
-            super.onPostExecute(contentData);
-        }
-    }
 }
