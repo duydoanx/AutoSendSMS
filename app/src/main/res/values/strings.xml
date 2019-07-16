@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AutoSendSMS</string>
+    <string name="codeContent">Code</string>
+    <string name="number">Số điện thoại</string>
+    <string name="content">Nội dung tin nhắn</string>
+    <string name="btAdd">Thêm</string>
+    <string name="tcCode">Code:</string>
+    <string name="tcNumber">Số điện thoại:</string>
+    <string name="tcContent">Nội dung:</string>
+    <string name="btDelete">Xóa</string>
+    <string name="etContentEmpty">Nội  tin nhắn trống</string>
+    <string name="etNumberEmpty">Số điện thoại trống</string>
+    <string name="etCodeEmpty">Code trống</string>
+    <string name="delete">Đã xóa</string>
+</resources>

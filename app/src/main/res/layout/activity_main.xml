@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_alignParentTop="true"
+        android:id="@+id/etCode"
+        android:hint="@string/codeContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_marginTop="10dp"
+        android:hint="@string/number"
+        android:layout_below="@+id/etCode"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etContent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/etNumber"
+        android:hint="@string/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etContent"
+        android:text="@string/btAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvList"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
